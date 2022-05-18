@@ -1,0 +1,986 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+}
+.header-section-menu{
+    display: flex;
+    justify-content: space-between
+}
+.header-logo-container{
+    max-width: 100%;
+    height: auto;
+}
+.header-img-logo{
+    width: 180px;
+    height: 141px;
+    margin-left: 175px;
+}
+.Header-li-menu-links{
+  text-decoration: none;
+  list-style: none;
+
+}.header-nav-menu{
+  margin-right: 170px;
+ 
+}
+
+.header-nav-menu .Header-ul-menu-links li{
+  margin-right: 30px;
+  display: inline-block;
+}
+.header-nav-menu .Header-ul-menu-links {
+  margin-top: 50px;
+  margin-right: 20px;
+}
+.Header-li-menu-links{
+  font-size: 14px;
+  color: #101010;
+  font-weight: 500;
+}
+
+ .Header-ul-menu-links .Header-li-menu-links:hover {
+  color: #1273eb;
+  transition: 0.5s;
+}
+/*'''''''''''''''Icono Menu Puntitos''''''''''''''' */
+.header-contenedor-puntitos{
+  float: right;
+  display: none;
+  }
+  #check{
+    display: none;
+  }
+  .header-ul-icon-menu {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .header-ul-icon-menu .header-li-menu-icon-container a {
+      padding: 16px 13px 16px;
+      background: #ff000000;
+      margin-left: 15px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      max-width: 58px;
+      display: flex;
+      flex-wrap: wrap;
+      border-radius: 2px;
+      padding-right: 0;
+      margin-right: -4px;
+    }
+    
+    .header-li-menu-icon-container .header-a-menu-icon-boton span {
+      height: 5px;
+      width: 5px;
+      display: block;
+      background: #0072ff;
+      border-radius: 50%;
+      transition: none;
+      cursor: pointer;
+      list-style: none;
+      margin: 4px 5px;
+    }
+  /*'''''''''''''''Icono Menu Puntitos''''''''''''''' */
+
+
+/* '''''''''''''''''''''''''''Inicia Main - Welcome '''''''''''''''''''''''''''*/
+.main-section-welcome{
+  margin: 94px 145px;
+}
+.main-container-welcome{
+  position: relative;
+  animation-name:fadeInLeft;
+  animation-duration: 2s;
+}
+@keyframes fadeInLeft{from{opacity:0;transform:translate3d(-100%,0,0)}to{opacity:1;transform:none}}.fadeInLeft{animation-name:fadeInLeft}
+
+.main-container-welcome .main-h1-welcome{
+  font-size: 52px;
+  color: #1c1b1b;
+  font-weight: 700;
+}
+.main-container-welcome .main-h2-welcome{
+  font-size: 29px;
+  color: #1c1b1b;
+}
+
+.main-button-welcome{
+  margin: 10px;
+  padding: 15px 40px;
+  background: #5bc0de;
+  border-radius: 7px;
+  border-style: none;
+}
+.main-button-welcome:hover{
+  transition: 0.5s;
+  background: #4b9eb7;
+}
+.main-button-welcome div{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.main-button-whatsapp{
+  margin: 10px;
+  padding: 15px 40px;
+  background: #4dc247;
+  border-radius: 7px;
+  border-style: none;
+}
+.main-button-whatsapp:hover{
+  transition: 0.5s;
+  background: #44aa3e;
+}
+.main-button-whatsapp div{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+.main-svg-emoji-welcome{
+  width: 52px;
+  height: 52px;
+}
+/* '''''''''''''''''''''''''''Finaliza Main - Welcome '''''''''''''''''''''''''''*/
+.main-h3-subtitle{
+  color: #1273eb;
+  text-align: center;
+  margin: 50px;}
+
+.home-main-container-introduction{
+  display: grid;
+  margin: 0 150px;
+}
+.home-main-article-introduction{
+  display: grid;
+  justify-items: center;
+}
+.home-main-h2-titulos{
+  font-size: 40px;
+  color: #1c1b1b;
+  font-weight: 600;
+  text-align: center;
+}
+.home-main-p-titulos-introduction{
+  color: #615d58;
+  font-size: 14px;
+  margin: 5px ;
+}
+.home-main-container-3grid-introduction{
+
+  margin-top: 60px;
+}
+.home-main-div-stats-introduction{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+}
+.number-increment-animation,.counter8000{
+  font-size: 40px;
+}
+.text-number-increment-animation{
+  margin-left: 20px;
+  color: #615d58;
+  margin-bottom: 20px;
+}
+
+
+.home-main-img-introduction{
+  width: 500px;
+  text-align: center;
+}
+
+/* {{{{{{{{{{{{{{{{{{{{Inicia el home main services boxes}}}}}}}}}}}}}}}}}}}} */
+.home-main-section-services{
+  margin: 0px 150px;
+}
+.home-main-container-services{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.home-main-div-services-boxes img{
+ width: 200px;
+}
+.home-main-div-services-boxes p{
+  font-size: 12px;
+  margin-right: 13px;
+  margin-bottom: 40px;
+  text-justify: auto;
+  color:#615d58;
+}
+.home-main-section-cta{
+  margin: 20px 150px;
+  text-align: center;
+}
+.home-main-div-services-boxes:hover{
+animation-name:bounce;
+animation-duration: 1s;
+}
+@keyframes bounce{20%,53%,80%,from,to{animation-timing-function:cubic-bezier(.215,.61,.355,1);transform:translate3d(0,0,0)}40%,43%{animation-timing-function:cubic-bezier(.755,.050,.855,.060);transform:translate3d(0,-30px,0)}70%{animation-timing-function:cubic-bezier(.755,.050,.855,.060);transform:translate3d(0,-15px,0)}90%{transform:translate3d(0,-4px,0)}}.bounce{animation-name:bounce;transform-origin:center bottom}
+
+
+.whatsapp-ico{
+    fill: white;
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+    background-color: #4dc247;
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    position: fixed;
+    bottom: 20px;
+    right : 20px;
+    z-index: 10;
+}
+
+.whatsapp-ico:hover{
+    box-shadow: 2px 2px 11px rgba(0,0,0,0.7);
+}
+
+/* Inicia el footer */
+.footer{
+  margin: 0px 150px;
+}
+.footer-container{
+  background-color: #413f4a;
+  height: 270px;
+  display: grid;
+}
+.footer-icons-social{
+text-align: center;
+margin-top: 40px;
+margin-right: 40px;
+}
+.footer-icons-social a{
+ 
+  margin-left: 50px;
+  }
+
+.sadas :hover{
+  color: white;
+}
+
+.footer-div-contact{
+  display: grid;
+  grid-auto-flow: column;
+  margin: 0 20px;
+  justify-content:space-around;
+
+}
+.footer-div-contact  p{
+  color: rgb(200, 200, 200);
+  margin: 10px 0px;
+}
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{About page}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+.about-div-container{
+margin:0 20px;
+
+
+}
+.about-title-image{ 
+  height: 240px;
+  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/v1622030231/Baner%20productos%20de%20limpieza.jpg"); 
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.about-title-image h1{
+  color: white;
+  font-size: 32px;
+}
+.about-main-h2-about{
+  font-size: 28px;
+  color: #1c1b1b;
+  font-weight: 600px;
+  opacity: 95.5%
+}
+.about-main-p-10anos-about{
+color: #7A7A7A;
+font-size: 15px;
+}
+
+
+/* Acordion */
+.accordion {
+  background-color: rgb(255, 255, 255);
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.about-acordion-button-rotate-icon svg{
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+ }
+
+ .about-acordion-button-rotate-icon svg:hover {
+  -webkit-transform: rotate(+90deg);
+  -moz-transform: rotate(+90deg);
+  -ms-transform: rotate(+90deg);
+  transform: rotate(+90deg);
+ }
+
+/* Acordion */
+
+.panel p{
+  color: #7A7A7A;
+  font-size: 15px;
+}
+
+/* {{{{{{{{{{{{{{{{Section about-container-bullets}}}}}}}}}}}}}}}}}}}}}} */
+.about-container-bullets{
+  margin:0 40px;
+}
+.about-container-bullets img{
+  width: 100%;
+}
+
+.about-container-bullets h2{
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.about-bullets-parrafo{
+  margin: 20px 0px;
+  font-size: 16px;
+  color: #7A7A7A;
+}
+.about-ul-bullets{
+  list-style: none;
+  
+}
+
+/* {{{{{{{{{{{{{{{{{{{{{about-funfacts}}}}}}}}}}}}}}}}}}} */
+.about-funfacts{
+  margin:0px 20px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.service-title-image{ 
+  height: 240px;
+  background-image: url("https://res.cloudinary.com/doo95ngwf/images/f_auto,q_auto/v1622156030/adobestock_118417749_bbnwp6/adobestock_118417749_bbnwp6.jpg"); 
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.service-title-image h1{
+  color: white;
+  font-size: 30px;
+  
+}
+.a-seeMore{
+  font-size: 14px;
+margin-bottom: 20px;
+text-justify: auto;
+color: #000000;
+}
+.a-seeMore:hover{
+  color:#1273eb;}
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{Contact}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+.contact-container-logos{
+  display: grid;
+  align-items: center;
+  margin:50px 0px 50px 30px;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+.contact-logos img{
+  width: 80px;
+  margin: 10px 0;
+}
+.contact-title-image{ 
+  height: 240px;
+  background-image: url("https://res.cloudinary.com/doo95ngwf/images/f_auto,q_auto/v1622156030/adobestock_118417749_bbnwp6/adobestock_118417749_bbnwp6.jpg"); 
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.contact-title-image h1{
+  color: white;
+  font-size: 40px;
+}
+
+/* Servicios especificos: Muebles */
+.article-muebles-title-image{ 
+  height: 240px;
+  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto/v1652119252/Lavado-de-Muebles_Bajo-brillo-para-fondos_vy0v5r.png"); 
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.article-title-header-image{
+  color: white;
+  font-size: 35px;
+  text-shadow: -3px 1px #000000;
+}
+
+
+.article-main-container{
+  margin: 15px 20px;
+  text-align: justify;
+  display: grid;
+  justify-items: center;
+}
+.article-main-container h2{
+  font-size: 18px;
+  margin: 20px 0;
+  text-align: center;
+}
+.article-main-container img{
+  margin: 20px 0;
+  height: 190px;
+}
+.article-main-container-text-recuerda{
+  color:#413f4a;
+}
+#article-empleado-mr-brillante-limpia-sofa-blanco{
+  height: 380px;
+}
+#article-empleado-mr-brillante-limpia-sofa-verde{
+  height: 215px;
+}
+/* Article casas */
+.article-title-casas-header-image{
+  color: white;
+  font-size: 29px;
+  text-shadow: -3px 1px #000000;
+  text-align: center;
+  margin: 0 20px 0 20px;
+}
+
+
+/* Article Colchones */
+.article-service-title-colchones-image{ 
+  height: 240px;
+  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto/v1652306445/banner%2C%20lavado%20de%20colchon.jpg"); 
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#article-colchon-antes-y-despues{
+  height: 120px;
+}
+
+/* Article alfombras */
+.article-service-title-alfombras-image{ 
+  height: 240px;
+  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto/v1652239234/alfombra2_mvcv2i.jpg"); 
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-shadow: -5px 1px #000000;
+}
+
+/* Article carros */
+.article-service-title-carros-image{ 
+  height: 240px;
+  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto/v1652239234/limpiezadepuerta_blkkdr.jpg"); 
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-shadow: -5px 1px #000000;
+}
+
+/* Article casas */
+.article-service-title-casas-image
+{ 
+  height: 240px;
+  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto/v1652461170/Limpieza%20de%20casa%20cover.jpg"); 
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-shadow: -5px 1px #000000;
+}
+.article-title-header-image{
+  margin: 0 20px 0 20px;
+  text-align: center;
+  text-shadow: 3px 1px #000000;
+
+}
+/* Article Ventanas */
+.article-service-title-ventanas-image
+{ 
+  height: 240px;
+  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto/v1652670854/Baner-en-oscuro-lavado-de-cristale_w2qk1h.png"); 
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-shadow: -5px 1px #000000;
+}
+.article-title-ventanas-header-image{
+  text-align: center;
+  text-shadow: 3px 1px #000000;
+}
+.article-title-ventanas-header-image{
+  color: white;
+  font-size: 26px;
+  text-shadow: -3px 1px #000000;
+}
+
+@media(max-width:1100px){
+    /* Aqui Inicia el header */
+
+  .header-nav-menu .Header-ul-menu-links .Header-li-menu-links{
+    margin-right: 15px;
+    display: inline-block;
+  }
+  .header-img-logo{
+    width: 180px;
+    height: 141px;
+    margin-left: 50px;
+  }
+  .header-nav-menu{
+  margin-right: 50px;
+  }
+  /* Aqui finializa el header */
+
+  .home-main-img-introduction{
+    width: 100%;
+  }
+  /* Aqui inicia el home main services */
+  .home-main-section-services {
+    margin: 0px 50px;
+}
+.home-main-section-cta{
+  margin: 0px 50px;
+}
+}
+@media (min-width:479px){
+  .about-title-image h1{
+    font-size: 40px;
+  }
+  .about-funfacts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+
+    /* services */
+    .service-title-image h1{
+      font-size: 40px;
+    }
+      /* Contact */
+
+    .contact-title-image h1{
+      font-size: 50px;
+    }
+    .contact-container{
+      margin: 20px 20px;
+      text-align: justify;
+    }
+
+    .contact-container-logos {
+      margin: 50px 50px 50px 150px;    
+  }
+  /* Article Muebles */
+  .article-title-header-image{
+    color: white;
+    font-size: 38px;
+    text-shadow: -3px 1px #000000;
+  }
+  /* Article casas */
+  .article-title-casas-header-image{
+    font-size: 40px;
+  }
+  .article-title-ventanas-header-image{
+    margin: 0 20px 0 20px;
+    color: white;
+    font-size: 35px;
+    text-shadow: -3px 1px #000000;
+  }
+  .article-main-container{
+    margin: 15px 35px;
+    text-align: justify;
+    display: grid;
+    justify-items: center;
+  }
+  .article-main-container h2{
+    font-size: 25px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  .article-main-container img{
+    margin: 20px 0;
+    height: 275px;
+  }
+  .article-main-container-text-recuerda{
+    color:#413f4a;
+  }
+  #article-empleado-mr-brillante-limpia-sofa-blanco{
+    height: 550px;
+  }
+  #article-empleado-mr-brillante-limpia-sofa-verde{
+    height: 310px;
+    text-align: center;
+  }
+  #article-colchon-antes-y-despues{
+    height: 180px;
+  }
+}
+
+@media(max-width:819px){
+  /* Aqui Inicia el header */
+  .header-nav-menu .Header-ul-menu-links li{
+    margin-right: 30px;
+    display:block;
+  }
+  .header-img-logo{
+    width: 180px;
+    height: 141px;
+    margin-left: 10px;
+  }
+  /* '''''''''''Menu puntitos responsive''''''''''' */
+  .header-contenedor-puntitos{
+    display: block;
+  }
+ .Header-ul-menu-links{
+   position: fixed;
+   width: 100%;
+   height: 100vh;
+   background: #ffffff;
+   top: 80px;
+   left: -100%;
+   text-align: center;
+   transition: all .5s;
+ }
+ .header-nav-menu .Header-ul-menu-links .Header-li-menu-links{
+   display: block;
+   margin: 16px 50px;
+   line-height: 30px;
+   text-align: center;
+   border-bottom: 1px #f3f3f3 solid;
+   padding-bottom: 10px;
+   font-size: 16px;
+ }
+ .Header-ul-menu-links .Header-li-menu-links:hover {
+  color: #1273eb;
+  transition: 0.5s;
+}
+ #check:checked ~ .Header-ul-menu-links{
+   left: 0;
+ }
+/* Aqui finializa el header */
+
+/* Aqui inicia el Main Welcome */
+
+.main-section-welcome{
+  margin: 94px 28px;
+}
+  
+/* Aqui Finaliza el Main Welcome */
+
+/* Aqui inicia el main introduction */
+.home-main-h2-titulos {
+  font-size: 30px;
+  font-weight: 600;}
+
+.home-main-container-introduction{
+  margin: 0 30px;
+}
+/* Aqui inicia el main services */
+
+
+.home-main-section-services {
+  margin: 0px 30px;
+}
+
+.home-main-div-services-boxes img{
+  width: 130px;
+ }
+ .home-main-section-cta{
+  margin: 0px 30px;
+}
+
+/* {{{{{{{{{{{{{{{{inicia el footer}}}}}}}}}}}}}}}} */
+.footer-div-contact {
+  display: grid;
+  grid-auto-flow:initial;
+  margin: 0 20px;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+}
+}
+
+@media (min-width:819px){
+/* about */
+.about-div-container{
+  margin: 0px 150px;
+}
+
+.about-grid-bullets{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+/* contact */
+
+.contact-title-image h1{
+  font-size: 60px;
+}
+.contact-container {
+  margin: 20px 120px;
+}
+/* Article Muebles */
+.article-title-header-image{
+  color: white;
+  font-size:48px;
+  text-shadow: -3px 1px #000000;
+}
+ /* Article casas */
+ .article-title-casas-header-image{
+  font-size: 60px;
+}
+
+.article-title-ventanas-header-image{
+  margin: 0 20px 0 20px;
+  color: white;
+  font-size: 48px;
+  text-shadow: -3px 1px #000000;
+}
+
+.article-main-container{
+  margin: 15px 120px;
+  text-align: justify;
+  display: grid;
+  justify-items: center;
+}
+.article-main-container h2{
+  font-size: 25px;
+  margin: 20px 0;
+  text-align: center;
+}
+.article-main-container img{
+  margin: 20px 0;
+  height: 378px;
+}
+
+#article-empleado-mr-brillante-limpia-sofa-verde{
+  height: 400px;
+  text-align: center;
+}
+#article-colchon-antes-y-despues{
+  height: 220px;
+}
+}
+
+@media (min-width:1100px){
+  .about-title-image h1{
+    font-size: 60px;
+  }
+ 
+  .about-div-container{
+    margin-left: 200px;
+    margin-right: 700px;
+    text-align: justify;
+  }
+  .about-grid-bullets{
+    margin: 0px 200px;
+  }
+  /* Services */
+  .service-title-image h1{
+    font-size: 60px;
+  }
+  /* contact */
+
+  .contact-title-image h1{
+    font-size: 70px;
+  }
+  .contact-container-logos{
+    align-items: center;
+  }
+  
+  .contact-container {
+    margin: 20px 220px;
+  }
+  /* Article Muebles */
+  .article-main-container{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+  }
+  /* Article casas */
+ .article-title-casas-header-image{
+  font-size: 70px;
+}
+.article-title-header-image{
+  color: white;
+  font-size:48px;
+  text-shadow: -3px 1px #000000;
+}
+.article-title-ventanas-header-image{
+  margin: 0 20px 0 20px;
+  color: white;
+  font-size: 55px;
+  text-shadow: -3px 1px #000000;
+}
+
+.article-main-container{
+  margin: 15px 120px;
+  text-align: justify;
+  display: grid;
+  justify-items: center;
+}
+.article-main-container h2{
+  font-size: 25px;
+  margin: 20px 0;
+  text-align: center;
+}
+.article-main-container img{
+  margin: 20px 20px;
+  height: 308px;
+}
+#article-empleado-mr-brillante-limpia-sofa-blanco{
+  height: 400px;
+  text-align: center;
+}
+#article-empleado-mr-brillante-limpia-sofa-verde{
+  height: 300px;
+  text-align: center;
+}
+.article-main-container-text-recuerda{
+  font-style:italic;
+  color: #000000;
+  text-shadow: 0.2px 1px #000000;
+
+}
+}
+@media(max-width:479px){
+  /* Aqui inicia el header */
+
+  .header-img-logo{
+    width: 180px;
+    height: 141px;
+    margin-left: 0px;
+  }
+  .header-contenedor-puntitos{
+    display: block;
+    margin-right:1rem ;
+  }
+  .header-nav-menu .Header-ul-menu-links .Header-li-menu-links{
+    text-align: left;
+  }
+  /* Aqui finializa el header */
+ .main-container-welcome .main-h1-welcome {
+  font-size: 40px;
+  color: #1c1b1b;
+  font-weight: 700;
+ }
+  .main-section-welcome {
+    margin: 27px 28px;
+}
+.main-container-welcome .main-h2-welcome {
+  font-size: 25px;
+  margin:50px 0px;
+}
+/* Aqui inicia el main introduction */
+.home-main-container-introduction{
+  margin: 10px;
+}
+.home-main-h2-titulos {
+  font-size: 20px;
+  font-weight: 700;
+}
+.home-main-description-p1-introduction, .home-main-description-p2-introduction{
+  font-size:14px
+}
+
+/* {{{{{{{{{{{{{{{{{Home main services}}}}}}}}}}}}}}}}} */
+
+.home-main-container-services{
+  grid-template-columns: 1fr 1fr;
+}
+.home-main-section-services {
+  margin: 0px 20px;
+}
+
+.home-main-div-services-boxes img{
+  width: 100px;
+ }
+ .home-main-div-services-boxes p{
+  font-size: 12px;
+  margin-bottom: 20px;
+  text-justify: auto;
+  color:#615d58;
+
+}
+.home-main-section-cta{
+  margin: 0px 18px;
+}
+.main-button-welcome{
+  padding: 15px 14px;
+}
+
+.main-button-whatsapp{
+  padding: 15px 14px;
+}
+#home-main-boton-whastapp-welcome{
+  display: none;
+}
+#home-main-boton-llamar-welcome{
+  padding: 15px 30px;
+}
+.contact-container{
+  margin: 20px 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
