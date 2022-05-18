@@ -96,7 +96,6 @@ html{
   margin: 94px 145px;
 }
 .main-container-welcome{
-  position: relative;
   animation-name:fadeInLeft;
   animation-duration: 2s;
 }
