@@ -215,7 +215,7 @@ html{
   font-size: 12px;
   margin-right: 13px;
   margin-bottom: 40px;
-  text-justify: auto;
+  text-justify: justify;
   color:#615d58;
 }
 .home-main-section-cta{
@@ -946,9 +946,11 @@ color: #000000;
  .home-main-div-services-boxes p{
   font-size: 12px;
   margin-bottom: 20px;
-  text-justify: auto;
+  text-justify: justify;
   color:#615d58;
-
+}
+.home-main-div-services-boxes h3{
+  margin-right: 6px;
 }
 .home-main-section-cta{
   margin: 0px 18px;
