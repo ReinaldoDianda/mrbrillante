@@ -575,7 +575,10 @@ color: #000000;
   font-size: 26px;
   text-shadow: -3px 1px #000000;
 }
-
+.video-youtube-colchones{
+  width:560px; 
+  height:315px
+}
 @media(max-width:1100px){
     /* Aqui Inicia el header */
 
@@ -602,6 +605,9 @@ color: #000000;
 }
 .home-main-section-cta{
   margin: 0px 50px;
+}
+.video-youtube-colchones{
+  width:600px; 
 }
 }
 @media (min-width:479px){
@@ -764,6 +770,9 @@ color: #000000;
   justify-content: center;
   justify-items: center;
   align-content: center;
+}
+.video-youtube-colchones{
+  width:400px; 
 }
 }
 
@@ -952,8 +961,6 @@ color: #000000;
 .home-main-description-p1-introduction, .home-main-description-p2-introduction{
   font-size:14px
 }  
-
-
 /* {{{{{{{{{{{{{{{{{Home main services}}}}}}}}}}}}}}}}} */
 
 .home-main-container-services{
@@ -993,6 +1000,10 @@ color: #000000;
 }
 .contact-container{
   margin: 20px 20px;
+}
+
+.video-youtube-colchones{
+  width:350px; 
 }
 }
 
