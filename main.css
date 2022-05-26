@@ -855,6 +855,9 @@ color: #000000;
   .service-title-image h1{
     font-size: 60px;
   }
+  #home-main-container-services-p h3{
+    text-align: center;
+  }
   /* contact */
 
   .contact-title-image h1{
@@ -1003,7 +1006,7 @@ color: #000000;
 }
 
 .video-youtube-colchones{
-  width:350px; 
+  width:330px; 
 }
 }
 
