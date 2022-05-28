@@ -149,9 +149,7 @@ html{
   font-size: 18px;
   font-weight: 400;
 }
-.main-button-404{
-  padding: 15px 40px;
-}
+
 .main-svg-emoji-welcome{
   width: 52px;
   height: 52px;
@@ -596,25 +594,8 @@ color: #000000;
   color: white;
   font-size: 40px;
 }
-.main-div-button-404{
+section .main-div-button-404{
   text-align: center;
-}
-.main-button-404{
-  margin: 10px;
-  padding: 15px 14px;
-  background: #5bc0de;
-  border-radius: 7px;
-  border-style: none;
-}
-.main-button-404:hover{
-  transition: 0.5s;
-  background: #4b9eb7;
-}
-.main-button-404 div{
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 400;
 }
 
 @media(max-width:1100px){
@@ -1036,9 +1017,7 @@ color: #000000;
 .main-button-whatsapp{
   padding: 15px 14px;
 }
-.main-button-404{
-  padding: 15px 14px;
-}
+
 #home-main-boton-whastapp-welcome{
   display: none;
 }
