@@ -149,6 +149,9 @@ html{
   font-size: 18px;
   font-weight: 400;
 }
+.main-button-404{
+  padding: 15px 40px;
+}
 .main-svg-emoji-welcome{
   width: 52px;
   height: 52px;
@@ -579,6 +582,41 @@ color: #000000;
   width:560px; 
   height:315px
 }
+
+.contact-title-image{ 
+  height: 240px;
+  background-image: url("https://res.cloudinary.com/doo95ngwf/images/f_auto,q_auto/v1622156030/adobestock_118417749_bbnwp6/adobestock_118417749_bbnwp6.jpg"); 
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.contact-title-image h1{
+  color: white;
+  font-size: 40px;
+}
+.main-div-button-404{
+  text-align: center;
+}
+.main-button-404{
+  margin: 10px;
+  padding: 15px 14px;
+  background: #5bc0de;
+  border-radius: 7px;
+  border-style: none;
+}
+.main-button-404:hover{
+  transition: 0.5s;
+  background: #4b9eb7;
+}
+.main-button-404 div{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
 @media(max-width:1100px){
     /* Aqui Inicia el header */
 
@@ -836,6 +874,7 @@ color: #000000;
 #article-colchon-antes-y-despues{
   height: 220px;
 }
+
 }
 
 @media (min-width:1100px){
@@ -920,6 +959,8 @@ color: #000000;
   text-shadow: 0.2px 1px #000000;
 
 }
+
+
 }
 @media(max-width:479px){
   /* Aqui inicia el header */
@@ -993,6 +1034,9 @@ color: #000000;
 }
 
 .main-button-whatsapp{
+  padding: 15px 14px;
+}
+.main-button-404{
   padding: 15px 14px;
 }
 #home-main-boton-whastapp-welcome{
