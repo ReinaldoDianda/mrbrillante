@@ -426,7 +426,6 @@ font-size: 15px;
 .accordion {
   background-color: rgb(255, 255, 255);
   color: #444;
-  cursor: pointer;
   padding: 18px;
   width: 100%;
   text-align: left;
@@ -443,18 +442,8 @@ font-size: 15px;
   overflow: hidden;
 }
 
-.about-acordion-button-rotate-icon svg{
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
- }
 
- .about-acordion-button-rotate-icon svg:hover {
-  -webkit-transform: rotate(+90deg);
-  -moz-transform: rotate(+90deg);
-  -ms-transform: rotate(+90deg);
-  transform: rotate(+90deg);
- }
+
 
 /* Acordion */
 
