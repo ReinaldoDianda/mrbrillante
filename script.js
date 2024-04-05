@@ -1,18 +1,16 @@
-const counters = document.querySelectorAll('.number-increment-animation')
-const speed = 300
+const counters = document.querySelectorAll('.number-increment-animation'); const speed = 300
 
-counters.forEach(counter => {
-  const updateCount = () => {
-    const target = +counter.getAttribute('data-target')
-    const count = +counter.innerText
-    const inc = target / speed
+function updateCount (counter) {
+  const target = +counter.getAttribute('data-target')
+  const count = +counter.innerText
+  const inc = target / speed
 
-    if (count < target) {
-      counter.innerText = Math.ceil(count + inc)
-      setTimeout(updateCount, 1)
-    } else {
-      counter.innerText = target
-    }
+  if (count < target) {
+    counter.innerText = Math.ceil(count + inc)
+    setTimeout(() => updateCount(counter), 1)
+  } else {
+    counter.innerText = target
   }
-  updateCount()
-})
+}
+
+counters.forEach(updateCount)
