@@ -1,4 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap'); */
 *{
   margin: 0;
   padding: 0;
@@ -238,7 +237,7 @@ text-align: left;
 animation-name:bounce;
 animation-duration: 1s;
 }
-@keyframes bounce{20%,53%,80%,from,to{animation-timing-function:cubic-bezier(.215,.61,.355,1);transform:translate3d(0,0,0)}40%,43%{animation-timing-function:cubic-bezier(.755,.050,.855,.060);transform:translate3d(0,-30px,0)}70%{animation-timing-function:cubic-bezier(.755,.050,.855,.060);transform:translate3d(0,-15px,0)}90%{transform:translate3d(0,-4px,0)}}.bounce{animation-name:bounce;transform-origin:center bottom}
+/* @keyframes bounce{20%,53%,80%,from,to{animation-timing-function:cubic-bezier(.215,.61,.355,1);transform:translate3d(0,0,0)}40%,43%{animation-timing-function:cubic-bezier(.755,.050,.855,.060);transform:translate3d(0,-30px,0)}70%{animation-timing-function:cubic-bezier(.755,.050,.855,.060);transform:translate3d(0,-15px,0)}90%{transform:translate3d(0,-4px,0)}}.bounce{animation-name:bounce;transform-origin:center bottom} */
 
 
 .whatsapp-ico{
@@ -317,7 +316,6 @@ footer{
   font-size: 1.6rem;
   width: 20px;
 
-
   transition: color .4s ease;
 
 }
@@ -350,46 +348,6 @@ margin-top: 10px;
 margin-bottom: 20px;
 }
 }
-
-
-
-
-
-
-/* Inicia el footer
-.footer{
-  margin: 0px 150px;
-}
-.footer-container{
-  background-color: #413f4a;
-  height: 270px;
-  display: grid;
-}
-.footer-icons-social{
-text-align: center;
-margin-top: 40px;
-margin-right: 40px;
-}
-.footer-icons-social a{
- 
-  margin-left: 50px;
-  }
-
-.sadas :hover{
-  color: white;
-}
-
-.footer-div-contact{
-  display: grid;
-  grid-auto-flow: column;
-  margin: 0 20px;
-  justify-content:space-around;
-
-}
-.footer-div-contact  p{
-  color: rgb(200, 200, 200);
-  margin: 10px 0px;
-} */
 
 /* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{About page}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
 .about-div-container{
@@ -1118,16 +1076,3 @@ section .main-div-button-404{
   width:330px; 
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-  
