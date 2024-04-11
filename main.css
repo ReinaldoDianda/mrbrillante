@@ -64,7 +64,7 @@ html{
       padding: 0;
       list-style: none;
     }
-    .header-ul-icon-menu .header-li-menu-icon-container a {
+    .header-ul-icon-menu .header-li-menu-icon-container label {
       padding: 12px 7px 16px;
       background: #ff000000;
       margin: 20px -4px 20px -15px;
