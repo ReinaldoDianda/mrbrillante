@@ -125,7 +125,7 @@ html{
   background: #4b9eb7;
 }
 .main-button-welcome div{
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 18px;
   font-weight: 400;
@@ -143,7 +143,7 @@ html{
   background: #44aa3e;
 }
 .main-button-whatsapp div{
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 18px;
   font-weight: 400;
