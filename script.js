@@ -1,22 +1,16 @@
-const counters = document.querySelectorAll('.number-increment-animation'); 
-const duration = 2000; // duración total en milisegundos (2 segundos)
+'use strict';
+
+const counters = document.querySelectorAll('.number-increment-animation');
+const duration = 2000;
 
 function updateCount(counter) {
   const target = +counter.getAttribute('data-target');
-  const start = +counter.innerText || 0;
   const startTime = performance.now();
 
   function animate(time) {
-    // Tiempo transcurrido
     const elapsed = time - startTime;
-
-    // Progreso entre 0 y 1
     const progress = Math.min(elapsed / duration, 1);
-
-    // Valor actual (interpolación)
-    counter.innerText = Math.floor(progress * (target - start) + start);
-
-    // Seguir animando mientras no haya terminado
+    counter.innerText = Math.floor(progress * target);
     if (progress < 1) {
       requestAnimationFrame(animate);
     }
@@ -25,4 +19,19 @@ function updateCount(counter) {
   requestAnimationFrame(animate);
 }
 
-counters.forEach(updateCount);
+if ('IntersectionObserver' in window) {
+  const observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        updateCount(entry.target);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  counters.forEach(function(counter) {
+    observer.observe(counter);
+  });
+} else {
+  counters.forEach(updateCount);
+}
