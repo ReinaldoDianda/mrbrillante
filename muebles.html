@@ -26,11 +26,14 @@
 
 
 
+    <link rel="preconnect" href="https://res.cloudinary.com" crossorigin>
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <!-- Preconect y dns prefetch hacen que el navegador establezca la conexión a Cloudinary (donde están todas las imágenes) ANTES de necesitarla. Ahorra ~100-300ms por imagen en móvil.debe ir antes de llamar la main.css -->
 
     
     <link rel="stylesheet" href="main.css">
     <link rel="icon" href="https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto/v1621829621/cropped-Favicon_wonjfu.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="print" onload="this.media='all'">
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
