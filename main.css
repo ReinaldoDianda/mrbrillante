@@ -303,22 +303,26 @@ footer{
   text-decoration: none;
   color: #fff;
   border: 1.1px solid white;
-  padding: 5px;
-
+  padding: 8px;
   border-radius: 50%;
-
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  transition: color .4s ease, border-color .4s ease;
 }
-.socials a i{
-  font-size: 1.6rem;
-  width: 20px;
 
-  transition: color .4s ease;
-
-}
-.socials a:hover i{
+.socials a:hover{
   color: aqua;
+  border-color: aqua;
 }
-
+.socials a svg{
+  width: 18px;
+  height: 18px;
+  display: block;
+  flex-shrink: 0;
+}
 .footer-bottom{
   background: #000;
   padding: 20px;
