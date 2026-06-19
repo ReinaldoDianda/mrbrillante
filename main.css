@@ -148,6 +148,15 @@ html{
   font-size: 18px;
   font-weight: 400;
 }
+a.main-button-welcome,
+a.main-button-whatsapp{
+  display: inline-block;
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+}
 
 .main-svg-emoji-welcome{
   width: 52px;
@@ -387,7 +396,15 @@ font-size: 15px;
   transition: 0.4s;
   
 }
-
+.accordion h3{
+  font-size: 17px;
+  color: #1c1b1b;
+  margin-bottom: 10px;
+}
+.accordion p{
+  color: #7A7A7A;
+  font-size: 15px;
+}
 .panel {
   padding: 0 18px;
   display: none;
