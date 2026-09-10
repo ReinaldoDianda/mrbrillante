@@ -53,3 +53,5 @@ if (videoFacade) {
     if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); cargarVideo(); }
   });
 }
+// Anio del footer automatico
+document.querySelectorAll('.footer-year').forEach(function(el){ el.textContent = new Date().getFullYear(); });
