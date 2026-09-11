@@ -1308,3 +1308,34 @@ html.dark .contact-card:hover{ border-color:#4db3e6; }
 html.dark .contact-ic{ background:#12283a; color:#4db3e6; }
 html.dark .contact-ic.wa{ background:#123326; color:#39c07a; }
 html.dark .contact-socials a{ border-color:#2b2c39; color:#4db3e6; }
+
+/* ===== Menu visible en modo oscuro ===== */
+html.dark .Header-li-menu-links{ color:#e6e6e6; }
+html.dark .nav-link:hover, html.dark .Header-ul-menu-links .Header-li-menu-links:hover{ color:#4db3e6; }
+@media(max-width:819px){
+  html.dark .Header-ul-menu-links{ background:#14151a; }
+  html.dark .header-nav-menu .Header-ul-menu-links .Header-li-menu-links{ border-bottom-color:#2b2c39; }
+}
+
+/* ===== Tarjetas de servicio (estilo moderno, como contacto) ===== */
+.home-main-container-services{ gap:18px; margin-top:26px; }
+.home-main-section-services{ padding-bottom:10px; }
+.home-main-div-services-boxes{
+  display:flex; flex-direction:column; align-items:center; text-align:center;
+  gap:8px; padding:30px 20px; height:100%;
+  background:#fff; border:1px solid #e6e6e6;
+  transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.home-main-div-services-boxes:hover{ transform:translateY(-5px); box-shadow:0 12px 28px rgba(0,0,0,.1); border-color:#0077c8; }
+.service-icon{
+  width:62px; height:62px; padding:16px; box-sizing:border-box;
+  border-radius:50%; background:#eaf4fb; color:#0077c8; margin:0 0 4px;
+}
+.home-main-div-services-boxes h3{ font-size:18px; font-weight:600; color:#1c1b1b; margin:0; }
+.home-main-div-services-boxes p{ font-size:14px; color:#615d58; text-align:center; margin:0; line-height:1.55; }
+#home-main-container-services-p p, #home-main-container-services-p h3{ text-align:center; }
+html.dark .home-main-div-services-boxes{ background:#1b1c25; border-color:#2b2c39; }
+html.dark .home-main-div-services-boxes:hover{ border-color:#4db3e6; }
+html.dark .service-icon{ background:#12283a; color:#4db3e6; }
+html.dark .home-main-div-services-boxes h3{ color:#f1f1f3; }
+html.dark .home-main-div-services-boxes p{ color:#a6a6b0; }
