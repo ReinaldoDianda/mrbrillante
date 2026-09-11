@@ -361,7 +361,7 @@ margin-bottom: 20px;
 /* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{About page}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
 .about-title-image{
   height: 240px;
-  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto,w_1400,c_limit/v1712335533/Baner-productos-de-limpieza_nxnsy9.webp");
+  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto,w_800,c_limit/v1712335533/Baner-productos-de-limpieza_nxnsy9.webp");
   background-position: center;
   background-size: cover;
   display: grid;
@@ -502,6 +502,11 @@ margin-bottom: 20px;
      especificidad para ganar a las reglas base que aparecen despues en el archivo. */
   body .contact-title-image,
   body .service-title-image{ background-image: url("https://res.cloudinary.com/doo95ngwf/images/f_auto,q_auto,w_1400,c_limit/v1622156030/adobestock_118417749_bbnwp6/adobestock_118417749_bbnwp6.jpg"); }
+  body .about-title-image{ background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto,w_1400,c_limit/v1712335533/Baner-productos-de-limpieza_nxnsy9.webp"); }
+  body .article-muebles-title-image{ background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto,w_1400,c_limit/v1652119252/Lavado-de-Muebles_Bajo-brillo-para-fondos_vy0v5r.png"); }
+  body .article-service-title-colchones-image{ background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_79,w_1400,c_limit/v1712875386/modern-autonomous-heating-system-boiler-room_tysu8b.webp"); }
+  body .article-service-title-alfombras-image{ background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto,w_1400,c_limit/v1652239234/alfombra2_mvcv2i.jpg"); }
+  body .article-service-title-carros-image{ background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto,w_1400,c_limit/v1652239234/limpiezadepuerta_blkkdr.jpg"); }
 }
 
 
@@ -555,7 +560,7 @@ color: #000000;
 /* Servicios especificos: Muebles */
 .article-muebles-title-image{ 
   height: 240px;
-  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto,w_1400,c_limit/v1652119252/Lavado-de-Muebles_Bajo-brillo-para-fondos_vy0v5r.png"); 
+  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto,w_800,c_limit/v1652119252/Lavado-de-Muebles_Bajo-brillo-para-fondos_vy0v5r.png"); 
   background-position: center;
   background-size: cover;
   display: grid;
@@ -606,7 +611,7 @@ color: #000000;
 /* Article Colchones */
 .article-service-title-colchones-image{ 
   height: 240px;
-  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_79,w_1400,c_limit/v1712875386/modern-autonomous-heating-system-boiler-room_tysu8b.webp"); 
+  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_79,w_800,c_limit/v1712875386/modern-autonomous-heating-system-boiler-room_tysu8b.webp"); 
   background-position: center;
   background-size: cover;
   display: grid;
@@ -622,7 +627,7 @@ color: #000000;
 /* Article alfombras */
 .article-service-title-alfombras-image{ 
   height: 240px;
-  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto,w_1400,c_limit/v1652239234/alfombra2_mvcv2i.jpg"); 
+  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto,w_800,c_limit/v1652239234/alfombra2_mvcv2i.jpg"); 
   background-position: center;
   background-size: cover;
   display: grid;
@@ -634,7 +639,7 @@ color: #000000;
 /* Article carros */
 .article-service-title-carros-image{ 
   height: 240px;
-  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto,w_1400,c_limit/v1652239234/limpiezadepuerta_blkkdr.jpg"); 
+  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto,w_800,c_limit/v1652239234/limpiezadepuerta_blkkdr.jpg"); 
   background-position: center;
   background-size: cover;
   display: grid;
