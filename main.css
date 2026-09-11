@@ -498,12 +498,16 @@ margin-bottom: 20px;
   .about-trust-text{ flex:1 1 0; }
   .about-trust-media{ flex:1 1 0; }
   .about-stats{ grid-template-columns:repeat(4,1fr); }
+  /* Banner ancho para escritorio (movil usa w_800). El prefijo body sube la
+     especificidad para ganar a las reglas base que aparecen despues en el archivo. */
+  body .contact-title-image,
+  body .service-title-image{ background-image: url("https://res.cloudinary.com/doo95ngwf/images/f_auto,q_auto,w_1400,c_limit/v1622156030/adobestock_118417749_bbnwp6/adobestock_118417749_bbnwp6.jpg"); }
 }
 
 
 .service-title-image{ 
   height: 240px;
-  background-image: url("https://res.cloudinary.com/doo95ngwf/images/f_auto,q_auto,w_1400,c_limit/v1622156030/adobestock_118417749_bbnwp6/adobestock_118417749_bbnwp6.jpg"); 
+  background-image: url("https://res.cloudinary.com/doo95ngwf/images/f_auto,q_auto,w_800,c_limit/v1622156030/adobestock_118417749_bbnwp6/adobestock_118417749_bbnwp6.jpg");
   background-position: center;
   background-size: cover;
   display: grid;
@@ -536,7 +540,7 @@ color: #000000;
 }
 .contact-title-image{ 
   height: 240px;
-  background-image: url("https://res.cloudinary.com/doo95ngwf/images/f_auto,q_auto,w_1400,c_limit/v1622156030/adobestock_118417749_bbnwp6/adobestock_118417749_bbnwp6.jpg"); 
+  background-image: url("https://res.cloudinary.com/doo95ngwf/images/f_auto,q_auto,w_800,c_limit/v1622156030/adobestock_118417749_bbnwp6/adobestock_118417749_bbnwp6.jpg");
   background-position: center;
   background-size: cover;
   display: grid;
@@ -686,7 +690,7 @@ color: #000000;
 
 .contact-title-image{ 
   height: 240px;
-  background-image: url("https://res.cloudinary.com/doo95ngwf/images/f_auto,q_auto,w_1400,c_limit/v1622156030/adobestock_118417749_bbnwp6/adobestock_118417749_bbnwp6.jpg"); 
+  background-image: url("https://res.cloudinary.com/doo95ngwf/images/f_auto,q_auto,w_800,c_limit/v1622156030/adobestock_118417749_bbnwp6/adobestock_118417749_bbnwp6.jpg");
   background-position: center;
   background-size: cover;
   display: grid;
