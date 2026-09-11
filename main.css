@@ -1266,7 +1266,6 @@ html.dark .accordion{ border-bottom:1px solid #2b2c39; }
 html.dark .home-main-div-services-boxes p svg path{ fill:#8a8a95; }
 
 /* Header claro con separacion sutil en oscuro */
-html.dark header{ border-bottom:1px solid #23242e; }
 
 /* ===== Controles del footer: idioma (banderas) + tema ===== */
 .footer-controls{ display:flex; align-items:center; justify-content:center; gap:16px; margin:16px 0 4px; }
