@@ -379,7 +379,7 @@ margin:0 20px;
 }
 
 .about-main-p-10anos-about{
-color: #7A7A7A;
+color: #595959;
 font-size: 15px;
 }
 
@@ -402,7 +402,7 @@ font-size: 15px;
   margin-bottom: 10px;
 }
 .accordion p{
-  color: #7A7A7A;
+  color: #595959;
   font-size: 15px;
 }
 .panel {
@@ -418,7 +418,7 @@ font-size: 15px;
 /* Acordion */
 
 .panel p{
-  color: #7A7A7A;
+  color: #595959;
   font-size: 15px;
 }
 
@@ -439,7 +439,7 @@ font-size: 15px;
 .about-bullets-parrafo{
   margin: 20px 0px;
   font-size: 16px;
-  color: #7A7A7A;
+  color: #595959;
 }
 .about-ul-bullets{
   list-style: none;
@@ -1338,3 +1338,6 @@ html.dark .home-main-div-services-boxes:hover{ border-color:#4db3e6; }
 html.dark .service-icon{ background:#12283a; color:#4db3e6; }
 html.dark .home-main-div-services-boxes h3{ color:#f1f1f3; }
 html.dark .home-main-div-services-boxes p{ color:#a6a6b0; }
+
+/* Lista de vinetas: espaciado sin <br> */
+.about-ul-bullets li{ margin-bottom:12px; }
