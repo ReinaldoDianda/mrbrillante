@@ -359,14 +359,9 @@ margin-bottom: 20px;
 }
 
 /* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{About page}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
-.about-div-container{
-margin:0 20px;
-
-
-}
-.about-title-image{ 
+.about-title-image{
   height: 240px;
-  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto,w_1400,c_limit/v1712335533/Baner-productos-de-limpieza_nxnsy9.webp"); 
+  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto,w_1400,c_limit/v1712335533/Baner-productos-de-limpieza_nxnsy9.webp");
   background-position: center;
   background-size: cover;
   display: grid;
@@ -376,82 +371,6 @@ margin:0 20px;
 .about-title-image h1{
   color: white;
   font-size: 32px;
-}
-
-.about-main-p-10anos-about{
-color: #595959;
-font-size: 15px;
-}
-
-
-/* Acordion */
-.accordion {
-  background-color: rgb(255, 255, 255);
-  color: #444;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
-  
-}
-.accordion h3{
-  font-size: 17px;
-  color: #1c1b1b;
-  margin-bottom: 10px;
-}
-.accordion p{
-  color: #595959;
-  font-size: 15px;
-}
-.panel {
-  padding: 0 18px;
-  display: none;
-  background-color: white;
-  overflow: hidden;
-}
-
-
-
-
-/* Acordion */
-
-.panel p{
-  color: #595959;
-  font-size: 15px;
-}
-
-/* {{{{{{{{{{{{{{{{Section about-container-bullets}}}}}}}}}}}}}}}}}}}}}} */
-.about-container-bullets{
-  margin:0 40px;
-}
-.about-container-bullets img{
-  width: 100%;
-}
-
-.about-container-bullets h2{
-  margin-top: 20px;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.about-bullets-parrafo{
-  margin: 20px 0px;
-  font-size: 16px;
-  color: #595959;
-}
-.about-ul-bullets{
-  list-style: none;
-  
-}
-
-/* {{{{{{{{{{{{{{{{{{{{{about-funfacts}}}}}}}}}}}}}}}}}}} */
-.about-funfacts{
-  margin:0px 20px;
-  display: grid;
-  justify-content: center;
-  text-align: center;
 }
 
 /* ===== About page — diseño moderno ===== */
@@ -817,10 +736,6 @@ section .main-div-button-404{
   .about-title-image h1{
     font-size: 40px;
   }
-  .about-funfacts{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    }
 
     /* services */
     .service-title-image h1{
@@ -981,16 +896,7 @@ section .main-div-button-404{
 }
 
 @media (min-width:819px){
-  
-/* about */
-.about-div-container{
-  margin: 0px 150px;
-}
 
-.about-grid-bullets{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
 /* contact */
 
 .contact-title-image h1{
@@ -1358,8 +1264,6 @@ html.dark body{ background:#14151a; color:#c7c7d0; }
 html.dark .main-container-welcome .main-h1-welcome,
 html.dark .main-container-welcome .main-h2-welcome,
 html.dark .home-main-h2-titulos,
-html.dark .accordion h3,
-html.dark .about-container-bullets h2,
 html.dark .article-main-container h2,
 html.dark .a-seeMore,
 html.dark .home-main-div-services-boxes h3,
@@ -1371,18 +1275,12 @@ html.dark .home-main-div-services-boxes p,
 html.dark .home-main-description-p1-introduction,
 html.dark .home-main-description-p2-introduction,
 html.dark .text-number-increment-animation,
-html.dark .about-bullets-parrafo,
-html.dark .about-main-p-10anos-about,
-html.dark .accordion p,
-html.dark .panel p,
 html.dark .contact-container p,
 html.dark .article-main-container p,
 html.dark p, html.dark li{ color:#a6a6b0; }
 
 /* Tarjetas / superficies oscuras (sin redondeos, como los botones) */
 html.dark .home-main-div-services-boxes{ background:#1b1c25; border:1px solid #2b2c39; }
-html.dark .accordion, html.dark .panel{ background:#1b1c25; }
-html.dark .accordion{ border-bottom:1px solid #2b2c39; }
 html.dark .home-main-div-services-boxes p svg path{ fill:#8a8a95; }
 
 /* Header claro con separacion sutil en oscuro */
@@ -1469,6 +1367,3 @@ html.dark .home-main-div-services-boxes:hover{ border-color:#4db3e6; }
 html.dark .service-icon{ background:#12283a; color:#4db3e6; }
 html.dark .home-main-div-services-boxes h3{ color:#f1f1f3; }
 html.dark .home-main-div-services-boxes p{ color:#a6a6b0; }
-
-/* Lista de vinetas: espaciado sin <br> */
-.about-ul-bullets li{ margin-bottom:12px; }
