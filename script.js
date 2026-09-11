@@ -73,19 +73,23 @@ document.querySelectorAll('.footer-year').forEach(function(el){ el.textContent =
   var flags=document.getElementById('flags');
   var btnT=document.getElementById('switch-translater');
   var nodes=document.querySelectorAll('[data-i18n]');
-  function apply(dict){ nodes.forEach(function(el){ var k=el.getAttribute('data-i18n'); if(dict[k]!=null) el.innerHTML=dict[k]; }); }
+  var orig={};
+  nodes.forEach(function(el){ orig[el.getAttribute('data-i18n')]=el.innerHTML; });
+  function applyDict(dict){ nodes.forEach(function(el){ var k=el.getAttribute('data-i18n'); if(dict[k]!=null) el.innerHTML=dict[k]; }); }
+  function restore(){ nodes.forEach(function(el){ var k=el.getAttribute('data-i18n'); if(orig[k]!=null) el.innerHTML=orig[k]; }); }
   function change(lang){
     if(!lang) return;
     document.documentElement.lang=lang;
     try{ localStorage.setItem('mb-lang', lang); }catch(e){}
     if(btnT) btnT.classList.toggle('active', lang==='en');
-    fetch('languages/'+lang+'.json').then(function(r){ if(!r.ok) throw 0; return r.json(); }).then(apply).catch(function(){});
+    if(lang==='en'){ fetch('languages/en.json').then(function(r){ if(!r.ok) throw 0; return r.json(); }).then(applyDict).catch(function(){}); }
+    else { restore(); }
   }
   var saved=null; try{ saved=localStorage.getItem('mb-lang'); }catch(e){}
   var nav=(navigator.language||'es').toLowerCase().indexOf('en')===0?'en':'es';
   var initial=saved||nav;
   document.documentElement.lang=initial;
   if(btnT) btnT.classList.toggle('active', initial==='en');
-  if(initial!=='es') change(initial);
+  if(initial==='en') change('en');
   if(flags){ flags.addEventListener('click',function(e){ var it=e.target.closest('.flags_item'); if(it) change(it.getAttribute('data-language')); }); }
 })();
